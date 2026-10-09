@@ -26,8 +26,21 @@ def api_school(school):
 
 # elever og ansatte
 
+@app.route('/api/skole/<school>/ansatte/')
+def api_school_staff_all(school):
+    return getFileContent()["Skoler"][school]["Lærere"]
 
+@app.route('/api/skole/<school>/ansatte/<staff>')
+def api_school_staff(school,staff):
+    return getFileContent()["Skoler"][school]["Lærere"][staff]
 
+@app.route('/api/skole/<school>/elever/')
+def api_school_students_all(school):
+    return getFileContent()["Skoler"][school]["Elever"]
+
+@app.route('/api/skole/<school>/elever/<student>')
+def api_school_students(school,student):
+    return getFileContent()["Skoler"][school]["Elever"][student]
 
 if __name__ == '__main__':
     app.run(debug=True)
