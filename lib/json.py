@@ -15,10 +15,3 @@ def getSchoolData(school):
         if quote(school).lower() == quote(skole).lower():
             return jsonify(file["Skoler"][skole])
     return jsonify({"error": "Skolen finnes ikke i databasen."}), 404
-
-
-# def getStudentOrTeacherData(role):
-#     data = getFileContent()
-#     for skole in data["Skoler"]:
-#         for elev in skole[role]:
-#             if 

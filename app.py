@@ -2,6 +2,7 @@ from flask import Flask, render_template
 from lib.json import getFileContent,getSchoolData
 
 app = Flask(__name__)
+app.url_map.strict_slashes = False
 
 @app.route('/')
 def index():
@@ -17,7 +18,7 @@ def api_root():
 
 # skoler 
 
-@app.route('/api/skole/')
+@app.route('/api/skole')
 def api_school_all():
     return getFileContent()["Skoler"]
 @app.route('/api/skole/<school>')
@@ -26,7 +27,7 @@ def api_school(school):
 
 # elever og ansatte
 
-@app.route('/api/skole/<school>/ansatte/')
+@app.route('/api/skole/<school>/ansatte')
 def api_school_staff_all(school):
     return getFileContent()["Skoler"][school]["Lærere"]
 
@@ -41,6 +42,10 @@ def api_school_students_all(school):
 @app.route('/api/skole/<school>/elever/<student>')
 def api_school_students(school,student):
     return getFileContent()["Skoler"][school]["Elever"][student]
+
+@app.errorhandler(404)
+def error(e):
+    return render_template('404.html'),404
 
 if __name__ == '__main__':
     app.run(debug=True)
