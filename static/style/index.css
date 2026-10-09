@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "roboto";
+  src: url(/static/font/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "inter";
+  src: url(/static/font/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+* {
+  text-decoration: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 0.6rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+
+  font-family: "roboto";
+  font-size: 1.2rem;
+}
