@@ -1,17 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{%block title%}{%endblock%}</title>
-    <link rel="stylesheet" href="/static/style/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/static/style/index.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <a id="hjem" href="/">Hjem</a>
-        <a href="/dokumentasjon">Dokumentasjon</a> 
+      <a id="hjem" href="/" class="nav_text_selected">Hjem</a>
+      <a id="dokumentasjon" class="nav_text_regular" href="/dokumentasjon"
+        >Dokumentasjon</a
+      >
     </nav>
-    {%block content%}
-    {%endblock%}
-</body>
+    {%block content%} {%endblock%}
+
+    <script defer>
+      console.log("hei");
+      const home = document.getElementById("hjem");
+      const doc = document.getElementById("dokumentasjon");
+
+      document.addEventListener("DOMContentLoaded", (e) => {
+        console.log("debug1");
+        if (window.location.href.endsWith("/dokumentasjon")) {
+          console.log("yeah");
+          doc.className = "nav_text_selected";
+          home.className = "nav_text_regular";
+        } else {
+          console.log("nah");
+          doc.className = "nav_text_regular";
+          home.className = "nav_text_selected";
+        }
+      });
+    </script>
+  </body>
 </html>

@@ -47,16 +47,11 @@ html {
 
   backdrop-filter: blur(30px);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+
+  z-index: 2;
 }
 
-.navbar a {
-  color: rgb(250, 232, 204);
-  font-weight: 400;
-}
 
-#hjem {
-  color: #ff8800;
-}
 
 .landing {
   display: flex;
@@ -91,14 +86,23 @@ h1 {
   margin: 0;
 }
 
-#orange_circle_gradient {
-    position: absolute;
-    
-    width: 100vw;
-    height: 100vh;
+.nav_text_regular {
+    color: rgb(250, 232, 204);
+    font-weight: 400;
+}
 
-    background-image: radial-gradient(#fe9e0316,transparent, transparent);
-   
+.nav_text_selected {
+    color: #ff8800;
+    font-weight: bold;
+}
 
-    z-index: 0;
+.orange_circle_gradient {
+  position: absolute;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-image: radial-gradient(#fe9e0316, transparent, transparent);
+
+  z-index: 0;
 }
