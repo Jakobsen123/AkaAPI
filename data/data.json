@@ -1,0 +1,868 @@
+{
+  "Om Akademiet": {
+    "Beskrivelse": "Akademiet beskriver seg selv som Norges største private videregående skole og har som mål å være Norges beste og mest fremtidsrettede skole.",
+    "Antall elever (nettverket)": "Over 9 000 elever og studenter",
+    "Skoler i nettverket": "16 videregående skoler, 11 privatistskoler og 8 grunnskoler, i tillegg til nettstudier",
+    "Første videregående skole": "Åpnet i 2005 i sju byer, blant dem Oslo",
+    "Pedagogikk": "Inspirert av Maria Montessori",
+    "Verdigrunnlag": [
+      "Tillit",
+      "Medbestemmelse",
+      "Inkludering"
+    ],
+    "Kontakt": {
+      "Videregående": {
+        "Telefon": "+47 922 36 600",
+        "E-post": "post@akademiet.no"
+      },
+      "Privatistskole": {
+        "Telefon": "+47 982 33 111",
+        "E-post": "privatist@akademiet.no"
+      },
+      "Utveksling": {
+        "Telefon": "+47 982 33 110",
+        "E-post": "utveksling@akademiet.no"
+      }
+    },
+    "Merknad": "Skoleinformasjon er hentet fra Akademiets egne nettsider og skolekataloger. Alle lærere og elever i denne filen er fiktive."
+  },
+  "Skoler": {
+    "Akademiet Oslo": {
+      "By": "Oslo",
+      "Fylke": "Oslo",
+      "Skoletype": "Privat videregående skole (del av Akademiet)",
+      "Besøksadresse": "Pilestredet 56, 0167 Oslo (Bislett)",
+      "Kontaktinformasjon": {
+        "Telefon": "22 46 69 00",
+        "E-post": "oslo@akademiet.no",
+        "Inntak": "inntak.oslo@akademiet.no",
+        "Nettside": "https://www.akademiet.no"
+      },
+      "Skoleinformasjon": {
+        "Beskrivelse": "Skolen ser hver enkelt elev og ønsker å være et «andre hjem». Pedagogikken er inspirert av Maria Montessori, og elevene får en mentor og veiledningstid ved siden av vanlig undervisning. Fokus på studieteknikk, selvregulering og forberedelse til høyere utdanning.",
+        "Antall elever (ca.)": 550,
+        "Verdier": [
+          "Tillit",
+          "Medbestemmelse",
+          "Inkludering"
+        ],
+        "Utstyr": "MacBook til hver elev (gratis å beholde etter tre år), Adobe-programvare, digitalt læringsinnhold ved siden av lærebøker",
+        "Fasiliteter": [
+          "Podcast- og lydstudio",
+          "E-sportrom",
+          "Fotostudio",
+          "Moderne lokaler nær trikk og buss"
+        ],
+        "Spesielle tilbud": [
+          "Mentorordning",
+          "Veiledningstid",
+          "Ekskursjoner og samarbeid med næringsliv",
+          "Akademiet Utveksling (VG2)",
+          "Tur til Praha og Berlin for SSØ-klassen skoleåret 2025/2026"
+        ],
+        "Skolepenger": "Kr 30 000 for 2026/2027",
+        "Opptak": "Søk via akademiet.no, flere skoler og linjer kan prioriteres. Første søknadsfrist 1. mars. Dokumentasjon av karakterer og orden/atferd lastes opp på nettsiden. Plass for alle tre år så lenge kontraktsvilkårene oppfylles.",
+        "Andre Akademiet-skoler i Oslo": [
+          "Akademiet VGS Bislett (ca. 160 elever)",
+          "Akademiet Norsk Restaurantskole (Schweigaards gate 34)",
+          "Akademiet Realfagsskole Oslo (Torshovtoppen, 7.–10. trinn)"
+        ]
+      },
+      "Tilgjengelige linjer": [
+        {
+          "Navn": "Studiespesialisering",
+          "Type": "Studieforberedende",
+          "Varighet": "3 år (VG1–VG3)",
+          "Gir": "Generell eller spesiell studiekompetanse",
+          "Beskrivelse": "Bred studieforberedende linje der elevene velger én av fire klasser i VG1.",
+          "Fordypning / klasser": [
+            "Juss og psykologi – blant annet rettsbesøk",
+            "Realfag – R1, R2, biologi, fysikk, kjemi og IT",
+            "Aktiv – fysisk aktivitet, turer og valgfritt fotballprogram med Fotballprogresjon Norge",
+            "Samfunnsfag, språk og økonomi (SSØ)"
+          ]
+        },
+        {
+          "Navn": "Medier og kommunikasjon",
+          "Type": "Studieforberedende",
+          "Varighet": "3 år (VG1–VG3)",
+          "Gir": "Generell studiekompetanse",
+          "Beskrivelse": "Medier og kommunikasjon med valgfag i VG2 og VG3 og bedriftsprosjekter."
+        },
+        {
+          "Navn": "Informasjonsteknologi og medieproduksjon",
+          "Type": "Yrkesfaglig",
+          "Varighet": "2 år skole (VG1–VG2)",
+          "Gir": "Yrkeskompetanse; automatisk plass på VG3 påbygging",
+          "Beskrivelse": "I VG2 velger elevene IT eller medieproduksjon. E-sport kan velges som programfag."
+        },
+        {
+          "Navn": "Påbygging til generell studiekompetanse",
+          "Type": "Studieforberedende (påbygg)",
+          "Varighet": "1 år (VG3)",
+          "Gir": "Generell studiekompetanse",
+          "Beskrivelse": "For elever med yrkesfaglig bakgrunn som vil ha generell studiekompetanse."
+        }
+      ],
+      "Lærere": {
+        "Kjersti Fiktivsen": {
+          "Fornavn": "Kjersti",
+          "Etternavn": "Fiktivsen",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Juss",
+            "Rettslære",
+            "Samfunnskunnskap"
+          ],
+          "Linje": "Studiespesialisering – Juss og psykologi",
+          "E-post": "kjersti.fiktivsen@akademiet.example",
+          "Kontor": "Rom 5.12",
+          "Ansatt siden": 2017,
+          "Fiktiv": true
+        },
+        "Haakon Prøvestad": {
+          "Fornavn": "Haakon",
+          "Etternavn": "Prøvestad",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Matematikk R1/R2",
+            "Fysikk"
+          ],
+          "Linje": "Studiespesialisering – Realfag",
+          "E-post": "haakon.prøvestad@akademiet.example",
+          "Kontor": "Rom 5.08",
+          "Ansatt siden": 2014,
+          "Fiktiv": true
+        },
+        "Ragnhild Demoen": {
+          "Fornavn": "Ragnhild",
+          "Etternavn": "Demoen",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Mediaproduksjon",
+            "Informasjonsdesign"
+          ],
+          "Linje": "Medier og kommunikasjon",
+          "E-post": "ragnhild.demoen@akademiet.example",
+          "Kontor": "Rom 6.03",
+          "Ansatt siden": 2019,
+          "Fiktiv": true
+        },
+        "Sander Testrud": {
+          "Fornavn": "Sander",
+          "Etternavn": "Testrud",
+          "Stilling": "Faglærer",
+          "Fag": [
+            "Informasjonsteknologi",
+            "E-sport",
+            "Programmering"
+          ],
+          "Linje": "Informasjonsteknologi og medieproduksjon",
+          "E-post": "sander.testrud@akademiet.example",
+          "Kontor": "Rom 6.10",
+          "Ansatt siden": 2021,
+          "Fiktiv": true
+        },
+        "Marit Eksempelsen": {
+          "Fornavn": "Marit",
+          "Etternavn": "Eksempelsen",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Norsk",
+            "Engelsk"
+          ],
+          "Linje": "Påbygging til generell studiekompetanse",
+          "E-post": "marit.eksempelsen@akademiet.example",
+          "Kontor": "Rom 5.15",
+          "Ansatt siden": 2016,
+          "Fiktiv": true
+        }
+      },
+      "Elever": {
+        "Eirik Testmo": {
+          "Fornavn": "Eirik",
+          "Etternavn": "Testmo",
+          "Alder": 16,
+          "Adresse": "Fiktivgata 12, 0000 Oslo",
+          "Trinn": "VG1",
+          "Linje": "Studiespesialisering",
+          "Klasse": "1JUP (Juss og psykologi)",
+          "Mentor": "Kjersti Fiktivsen",
+          "E-post": "eirik.testmo@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Rettslære",
+            "Psykologi"
+          ],
+          "Fiktiv": true
+        },
+        "Selma Demostad": {
+          "Fornavn": "Selma",
+          "Etternavn": "Demostad",
+          "Alder": 16,
+          "Adresse": "Eksempelveien 4, 0000 Oslo",
+          "Trinn": "VG1",
+          "Linje": "Studiespesialisering",
+          "Klasse": "1REA (Realfag)",
+          "Mentor": "Haakon Prøvestad",
+          "E-post": "selma.demostad@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Matematikk 1T",
+            "Programmering"
+          ],
+          "Fiktiv": true
+        },
+        "Tobias Prøvedal": {
+          "Fornavn": "Tobias",
+          "Etternavn": "Prøvedal",
+          "Alder": 17,
+          "Adresse": "Prøvegata 33, 0000 Oslo",
+          "Trinn": "VG2",
+          "Linje": "Studiespesialisering",
+          "Klasse": "2AKT (Aktiv)",
+          "Mentor": "Haakon Prøvestad",
+          "E-post": "tobias.prøvedal@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Fotballprogresjon",
+            "Idrettsfag"
+          ],
+          "Fiktiv": true
+        },
+        "Ingeborg Fiktivli": {
+          "Fornavn": "Ingeborg",
+          "Etternavn": "Fiktivli",
+          "Alder": 17,
+          "Adresse": "Testbakken 9, 0000 Oslo",
+          "Trinn": "VG2",
+          "Linje": "Medier og kommunikasjon",
+          "Klasse": "2MEK",
+          "Mentor": "Ragnhild Demoen",
+          "E-post": "ingeborg.fiktivli@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Lyd og podcast",
+            "Fotografi"
+          ],
+          "Fiktiv": true
+        },
+        "Jonas Eksemplund": {
+          "Fornavn": "Jonas",
+          "Etternavn": "Eksemplund",
+          "Alder": 16,
+          "Adresse": "Demoplassen 2, 0000 Oslo",
+          "Trinn": "VG1",
+          "Linje": "Informasjonsteknologi og medieproduksjon",
+          "Klasse": "1ITM",
+          "Mentor": "Sander Testrud",
+          "E-post": "jonas.eksemplund@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "E-sport",
+            "Programmering"
+          ],
+          "Fiktiv": true
+        },
+        "Nora Testesen": {
+          "Fornavn": "Nora",
+          "Etternavn": "Testesen",
+          "Alder": 18,
+          "Adresse": "Skoleveien 21, 0000 Oslo",
+          "Trinn": "VG3",
+          "Linje": "Studiespesialisering",
+          "Klasse": "3SSØ (Samfunnsfag, språk og økonomi)",
+          "Mentor": "Marit Eksempelsen",
+          "E-post": "nora.testesen@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Sosiologi",
+            "Økonomistyring"
+          ],
+          "Fiktiv": true
+        }
+      }
+    },
+    "Akademiet Bergen": {
+      "By": "Bergen",
+      "Fylke": "Vestland",
+      "Skoletype": "Privat videregående skole (del av Akademiet)",
+      "Besøksadresse": "Jonas Reins gate 4, 5008 Bergen",
+      "Kontaktinformasjon": {
+        "Telefon": "55 32 32 31",
+        "E-post": "bergen@akademiet.no",
+        "Nettside": "https://www.akademiet.no"
+      },
+      "Skoleinformasjon": {
+        "Beskrivelse": "En relativt liten skole med tett kontakt mellom elever, ansatte og ledelse. Skolen holder til over fem etasjer i sentrum av Bergen, utvidet og renovert høsten 2022. Pedagogikken er inspirert av Maria Montessori, og hver elev har en personlig mentor i stedet for kontaktlærer.",
+        "Verdier": [
+          "Tillit",
+          "Medbestemmelse",
+          "Inkludering"
+        ],
+        "Spesielle tilbud": [
+          "Studietid i de fleste fag, med hjelp fra faglærer, for å redusere lekser",
+          "Akademiet Utveksling i VG2 (blant annet England, USA, Canada, Australia, Spania, New Zealand og Kina; opptak basert på karakterer og personlig samtale)",
+          "Helsesykepleier ved skolen",
+          "Ferdig pakket bokpakke",
+          "Skoleskyss etter fylkets regler"
+        ],
+        "Skolepenger": "NOK 18 500 per skoleår fordelt over 10 måneder (oppgitt i skolekatalogen fra tidligere år, kan være endret)",
+        "Økonomisk støtte": "Samme rett til lån og stipend som ved offentlige skoler"
+      },
+      "Tilgjengelige linjer": [
+        {
+          "Navn": "Studiespesialisering",
+          "Type": "Studieforberedende",
+          "Varighet": "3 år (VG1–VG3)",
+          "Gir": "Generell eller spesiell studiekompetanse",
+          "Beskrivelse": "Fordypning velges ved søknad til VG2. I VG2 og VG3 velger elevene programfag, noen fra egen fordypning og noen valgfritt fra den andre.",
+          "Fordypning / klasser": [
+            "Realfag (REA) – spesiell studiekompetanse; matematikk R1/R2, kjemi 1/2, biologi 1/2, fysikk 1/2",
+            "Språk, samfunnsfag og økonomi (SSØ) – generell studiekompetanse; matematikk S1/S2, psykologi 1/2, sosiologi 1, engelsk 1/2"
+          ]
+        },
+        {
+          "Navn": "Påbygging til generell studiekompetanse",
+          "Type": "Studieforberedende (påbygg)",
+          "Varighet": "1 år",
+          "Gir": "Generell studiekompetanse",
+          "Beskrivelse": "For elever som har fullført yrkesfaglig utdanning, enten etter to år i skole (VG3) eller etter fagbrev (VG4)."
+        }
+      ],
+      "Lærere": {
+        "Torunn Fiktivsen": {
+          "Fornavn": "Torunn",
+          "Etternavn": "Fiktivsen",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Matematikk R1/R2",
+            "Kjemi"
+          ],
+          "Linje": "Studiespesialisering – Realfag",
+          "E-post": "torunn.fiktivsen@akademiet.example",
+          "Kontor": "Rom 2.04",
+          "Ansatt siden": 2015,
+          "Fiktiv": true
+        },
+        "Eivind Prøvevik": {
+          "Fornavn": "Eivind",
+          "Etternavn": "Prøvevik",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Biologi",
+            "Fysikk"
+          ],
+          "Linje": "Studiespesialisering – Realfag",
+          "E-post": "eivind.prøvevik@akademiet.example",
+          "Kontor": "Rom 3.01",
+          "Ansatt siden": 2018,
+          "Fiktiv": true
+        },
+        "Hilde Demoland": {
+          "Fornavn": "Hilde",
+          "Etternavn": "Demoland",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Psykologi",
+            "Sosiologi"
+          ],
+          "Linje": "Studiespesialisering – Språk, samfunnsfag og økonomi",
+          "E-post": "hilde.demoland@akademiet.example",
+          "Kontor": "Rom 4.06",
+          "Ansatt siden": 2012,
+          "Fiktiv": true
+        },
+        "Ola Eksempelstad": {
+          "Fornavn": "Ola",
+          "Etternavn": "Eksempelstad",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Engelsk",
+            "Norsk"
+          ],
+          "Linje": "Påbygging til generell studiekompetanse",
+          "E-post": "ola.eksempelstad@akademiet.example",
+          "Kontor": "Rom 5.02",
+          "Ansatt siden": 2020,
+          "Fiktiv": true
+        }
+      },
+      "Elever": {
+        "Mathilde Testvik": {
+          "Fornavn": "Mathilde",
+          "Etternavn": "Testvik",
+          "Alder": 17,
+          "Adresse": "Fiktivstien 5, 0000 Bergen",
+          "Trinn": "VG2",
+          "Linje": "Studiespesialisering",
+          "Klasse": "2REA",
+          "Mentor": "Torunn Fiktivsen",
+          "E-post": "mathilde.testvik@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Matematikk R1",
+            "Kjemi 1",
+            "Fysikk 1"
+          ],
+          "Fiktiv": true
+        },
+        "Sebastian Demoås": {
+          "Fornavn": "Sebastian",
+          "Etternavn": "Demoås",
+          "Alder": 16,
+          "Adresse": "Prøveveien 18, 0000 Bergen",
+          "Trinn": "VG1",
+          "Linje": "Studiespesialisering",
+          "Klasse": "1STA",
+          "Mentor": "Eivind Prøvevik",
+          "E-post": "sebastian.demoås@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Matematikk 1T",
+            "Naturfag"
+          ],
+          "Fiktiv": true
+        },
+        "Amalie Eksempelsen": {
+          "Fornavn": "Amalie",
+          "Etternavn": "Eksempelsen",
+          "Alder": 18,
+          "Adresse": "Testgaten 2, 0000 Bergen",
+          "Trinn": "VG3",
+          "Linje": "Studiespesialisering",
+          "Klasse": "3SSØ",
+          "Mentor": "Hilde Demoland",
+          "E-post": "amalie.eksempelsen@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Psykologi 2",
+            "Sosiologi 1",
+            "Matematikk S2"
+          ],
+          "Fiktiv": true
+        },
+        "Henrik Prøvesen": {
+          "Fornavn": "Henrik",
+          "Etternavn": "Prøvesen",
+          "Alder": 18,
+          "Adresse": "Demobakken 7, 0000 Bergen",
+          "Trinn": "VG3",
+          "Linje": "Påbygging til generell studiekompetanse",
+          "Klasse": "3PÅB",
+          "Mentor": "Ola Eksempelstad",
+          "E-post": "henrik.prøvesen@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Norsk",
+            "Engelsk",
+            "Samfunnsfag"
+          ],
+          "Fiktiv": true
+        }
+      }
+    },
+    "Akademiet Kristiansand": {
+      "By": "Kristiansand",
+      "Fylke": "Agder",
+      "Skoletype": "Privat videregående skole (del av Akademiet)",
+      "Besøksadresse": "Stadionveien 21, 4632 Kristiansand",
+      "Kontaktinformasjon": {
+        "Telefon": "91 88 44 50",
+        "E-post": "kristiansand@akademiet.no",
+        "Nettside": "https://www.akademiet.no"
+      },
+      "Skoleinformasjon": {
+        "Beskrivelse": "Beskrives som Kristiansands eneste toppidrettsgymnas. Skoledagen starter med trening, med studietid på slutten av dagen og en fast vurderingsdag (tirsdag). Hver elev har en egen mentor. Åpne, luftige lokaler på ett plan med utsikt til sjøen. Pedagogikken er inspirert av Maria Montessori.",
+        "Verdier": [
+          "Tillit",
+          "Medbestemmelse",
+          "Inkludering"
+        ],
+        "Idrettstilbud": [
+          "Fotball (UA og ATF, i samarbeid med IK Start)",
+          "Håndball (ATH)",
+          "Ishockey (ATI, med Kristiansand Ishockeyklubb)",
+          "Basketball (ATB)",
+          "Golf (treårig utdanningsløp)",
+          "Ryttersport (AHS)",
+          "Skateboard",
+          "Opptaksforberedende linje (VG2 og VG3) for forsvaret, politiet og andre nødetater",
+          "Andre idretter"
+        ],
+        "Fasiliteter": [
+          "Spicheren treningssenter (15 minutters gange fra Sør Arena)",
+          "Styrkerom på Sør Arena, vegg i vegg med skolen",
+          "Idda Arena (ishockey)",
+          "Sukkevannshallen (basket)",
+          "Innendørs skatepark i gangavstand",
+          "Olympiatoppen Sør og svømmehall i samme bygg som Spicheren",
+          "Treningsrom på skolen",
+          "Kantine på Sparebanken Sør-Arena med varm lunsj til alle elever"
+        ],
+        "Spesielle tilbud": [
+          "Mentor og idrettspsykologisk veileder",
+          "Egen MAC-bærbar ved skolestart",
+          "Ferdig pakket sekk med bøker",
+          "Akademiet Utveksling i VG2 (England, USA, Canada, Australia, Spania og New Zealand)",
+          "Skoleskyss etter samme ordning som offentlige skoler",
+          "Hospitering etter avtale med rektor"
+        ],
+        "Opptak": "Søk via VIGO med frist 1. mars. Hovedinntaket søkes direkte på akademiet.no."
+      },
+      "Tilgjengelige linjer": [
+        {
+          "Navn": "Studiespesialisering med toppidrett",
+          "Type": "Studieforberedende",
+          "Varighet": "3 år (VG1–VG3)",
+          "Gir": "Generell eller spesiell studiekompetanse",
+          "Beskrivelse": "Studiespesialisering kombinert med toppidrett. Fordypning velges ved søknad til VG2.",
+          "Fordypning / klasser": [
+            "Realfag – spesiell studiekompetanse; matematikk R1/R2, fysikk, kjemi og biologi",
+            "Språk, samfunnsfag og økonomi – generell studiekompetanse; psykologi, sosiologi, engelsk og entreprenørskap"
+          ]
+        },
+        {
+          "Navn": "Opptaksforberedende linje",
+          "Type": "Studieforberedende",
+          "Varighet": "2 år (VG2–VG3)",
+          "Gir": "Studiekompetanse (som studiespesialisering)",
+          "Beskrivelse": "Forberedelse til opptak til forsvaret, politiet og andre nødetater."
+        }
+      ],
+      "Lærere": {
+        "Geir Fiktivli": {
+          "Fornavn": "Geir",
+          "Etternavn": "Fiktivli",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Kroppsøving",
+            "Treningslære"
+          ],
+          "Linje": "Studiespesialisering med toppidrett",
+          "E-post": "geir.fiktivli@akademiet.example",
+          "Kontor": "Rom A1",
+          "Ansatt siden": 2013,
+          "Fiktiv": true
+        },
+        "Silje Prøvehaug": {
+          "Fornavn": "Silje",
+          "Etternavn": "Prøvehaug",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Matematikk R1/R2",
+            "Fysikk"
+          ],
+          "Linje": "Studiespesialisering med toppidrett – Realfag",
+          "E-post": "silje.prøvehaug@akademiet.example",
+          "Kontor": "Rom A3",
+          "Ansatt siden": 2016,
+          "Fiktiv": true
+        },
+        "Anders Demoseth": {
+          "Fornavn": "Anders",
+          "Etternavn": "Demoseth",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Samfunnsfag",
+            "Entreprenørskap",
+            "Psykologi"
+          ],
+          "Linje": "Studiespesialisering med toppidrett – Språk, samfunnsfag og økonomi",
+          "E-post": "anders.demoseth@akademiet.example",
+          "Kontor": "Rom A5",
+          "Ansatt siden": 2018,
+          "Fiktiv": true
+        },
+        "Linn Testrud": {
+          "Fornavn": "Linn",
+          "Etternavn": "Testrud",
+          "Stilling": "Idrettspsykologisk veileder",
+          "Fag": [
+            "Idrettspsykologi",
+            "Mental trening"
+          ],
+          "Linje": "Studiespesialisering med toppidrett",
+          "E-post": "linn.testrud@akademiet.example",
+          "Kontor": "Rom B1",
+          "Ansatt siden": 2020,
+          "Fiktiv": true
+        }
+      },
+      "Elever": {
+        "Lars Eksempelsen": {
+          "Fornavn": "Lars",
+          "Etternavn": "Eksempelsen",
+          "Alder": 16,
+          "Adresse": "Fiktivveien 8, 0000 Kristiansand",
+          "Trinn": "VG1",
+          "Linje": "Studiespesialisering med toppidrett",
+          "Klasse": "1TOP",
+          "Mentor": "Geir Fiktivli",
+          "E-post": "lars.eksempelsen@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Fotball (UA)",
+            "Treningslære"
+          ],
+          "Fiktiv": true
+        },
+        "Emilie Testland": {
+          "Fornavn": "Emilie",
+          "Etternavn": "Testland",
+          "Alder": 17,
+          "Adresse": "Prøvebakken 14, 0000 Kristiansand",
+          "Trinn": "VG2",
+          "Linje": "Studiespesialisering med toppidrett",
+          "Klasse": "2REA",
+          "Mentor": "Silje Prøvehaug",
+          "E-post": "emilie.testland@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Håndball (ATH)",
+            "Matematikk R1",
+            "Biologi 1"
+          ],
+          "Fiktiv": true
+        },
+        "Mats Demovik": {
+          "Fornavn": "Mats",
+          "Etternavn": "Demovik",
+          "Alder": 17,
+          "Adresse": "Testveien 3, 0000 Kristiansand",
+          "Trinn": "VG2",
+          "Linje": "Studiespesialisering med toppidrett",
+          "Klasse": "2SSØ",
+          "Mentor": "Anders Demoseth",
+          "E-post": "mats.demovik@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Ishockey (ATI)",
+            "Psykologi 1",
+            "Entreprenørskap"
+          ],
+          "Fiktiv": true
+        },
+        "Thea Prøveland": {
+          "Fornavn": "Thea",
+          "Etternavn": "Prøveland",
+          "Alder": 18,
+          "Adresse": "Demogata 27, 0000 Kristiansand",
+          "Trinn": "VG3",
+          "Linje": "Studiespesialisering med toppidrett",
+          "Klasse": "3TOP",
+          "Mentor": "Geir Fiktivli",
+          "E-post": "thea.prøveland@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Golf",
+            "Sosiologi 1"
+          ],
+          "Fiktiv": true
+        },
+        "Isak Fiktivstad": {
+          "Fornavn": "Isak",
+          "Etternavn": "Fiktivstad",
+          "Alder": 17,
+          "Adresse": "Skolestien 6, 0000 Kristiansand",
+          "Trinn": "VG2",
+          "Linje": "Studiespesialisering med toppidrett",
+          "Klasse": "2OPT (opptaksforberedende)",
+          "Mentor": "Anders Demoseth",
+          "E-post": "isak.fiktivstad@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Opptaksforberedende linje",
+            "Samfunnsfag"
+          ],
+          "Fiktiv": true
+        }
+      }
+    },
+    "Akademiet Sandnes": {
+      "By": "Sandnes",
+      "Fylke": "Rogaland",
+      "Skoletype": "Privat videregående skole (del av Akademiet)",
+      "Besøksadresse": "Langgata 1, 4306 Sandnes",
+      "Kontaktinformasjon": {
+        "Telefon": "51 90 55 30",
+        "E-post": "sandnes@akademiet.no",
+        "Nettside": "https://www.akademiet.no"
+      },
+      "Skoleinformasjon": {
+        "Beskrivelse": "Lokaler i Langgata 1 i Sandnes sentrum med god buss- og bybanetilgang og fellesarealer som brukes både sosialt og til arbeid. Elevene får en egen mentor i stedet for kontaktlærer, og har studietid der de i større grad kan velge innhold og arbeidsform.",
+        "Visjon": "Å være den beste og mest fremtidsrettede videregående skolen i Norge",
+        "Verdier": [
+          "Tillit",
+          "Medbestemmelse",
+          "Inkludering"
+        ],
+        "Utstyr": "Egen Mac fra første skoledag og ferdigpakket bokpakke",
+        "Spesielle tilbud": [
+          "Hospitering (prøve en skoledag etter avtale)",
+          "Akademiet Utveksling (VG2 i utlandet)",
+          "Mentorordning og studietid"
+        ],
+        "Opptak": "Søk via VIGO med frist 1. mars. Hovedinntaket søkes direkte på akademiet.no.",
+        "Økonomisk støtte": "Samme rett til lån, stipend og skoleskyss som ved andre videregående skoler"
+      },
+      "Tilgjengelige linjer": [
+        {
+          "Navn": "Studiespesialisering",
+          "Type": "Studieforberedende",
+          "Varighet": "3 år (VG1–VG3)",
+          "Gir": "Generell eller spesiell studiekompetanse",
+          "Beskrivelse": "Fordypning i realfag eller språk, samfunnsfag og økonomi fra VG2.",
+          "Fordypning / klasser": [
+            "Realfag",
+            "Språk, samfunnsfag og økonomi"
+          ]
+        },
+        {
+          "Navn": "Medier og kommunikasjon",
+          "Type": "Studieforberedende",
+          "Varighet": "3 år (VG1–VG3)",
+          "Gir": "Generell studiekompetanse",
+          "Beskrivelse": "Elevene arbeider med film, foto og lyd, blant annet med Mac, Photoshop og Premiere Pro."
+        },
+        {
+          "Navn": "Påbygging til generell studiekompetanse",
+          "Type": "Studieforberedende (påbygg)",
+          "Varighet": "1 år (VG3)",
+          "Gir": "Generell studiekompetanse",
+          "Beskrivelse": "For elever som har gått yrkesfag."
+        }
+      ],
+      "Lærere": {
+        "Vibeke Fiktivsen": {
+          "Fornavn": "Vibeke",
+          "Etternavn": "Fiktivsen",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Matematikk",
+            "Fysikk",
+            "Kjemi"
+          ],
+          "Linje": "Studiespesialisering – Realfag",
+          "E-post": "vibeke.fiktivsen@akademiet.example",
+          "Kontor": "Rom 1.02",
+          "Ansatt siden": 2015,
+          "Fiktiv": true
+        },
+        "Magnus Demoseth": {
+          "Fornavn": "Magnus",
+          "Etternavn": "Demoseth",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Samfunnsøkonomi",
+            "Sosiologi",
+            "Engelsk"
+          ],
+          "Linje": "Studiespesialisering – Språk, samfunnsfag og økonomi",
+          "E-post": "magnus.demoseth@akademiet.example",
+          "Kontor": "Rom 2.05",
+          "Ansatt siden": 2017,
+          "Fiktiv": true
+        },
+        "Karoline Prøvehei": {
+          "Fornavn": "Karoline",
+          "Etternavn": "Prøvehei",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Film",
+            "Foto",
+            "Lyd"
+          ],
+          "Linje": "Medier og kommunikasjon",
+          "E-post": "karoline.prøvehei@akademiet.example",
+          "Kontor": "Medierom",
+          "Ansatt siden": 2019,
+          "Fiktiv": true
+        },
+        "Per Eksempelli": {
+          "Fornavn": "Per",
+          "Etternavn": "Eksempelli",
+          "Stilling": "Mentor og lærer",
+          "Fag": [
+            "Norsk",
+            "Samfunnskunnskap"
+          ],
+          "Linje": "Påbygging til generell studiekompetanse",
+          "E-post": "per.eksempelli@akademiet.example",
+          "Kontor": "Rom 2.08",
+          "Ansatt siden": 2014,
+          "Fiktiv": true
+        }
+      },
+      "Elever": {
+        "Oskar Testbø": {
+          "Fornavn": "Oskar",
+          "Etternavn": "Testbø",
+          "Alder": 16,
+          "Adresse": "Fiktivgata 4, 0000 Sandnes",
+          "Trinn": "VG1",
+          "Linje": "Studiespesialisering",
+          "Klasse": "1STA",
+          "Mentor": "Vibeke Fiktivsen",
+          "E-post": "oskar.testbø@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Matematikk 1T",
+            "Realfagsfordypning"
+          ],
+          "Fiktiv": true
+        },
+        "Ida Demostad": {
+          "Fornavn": "Ida",
+          "Etternavn": "Demostad",
+          "Alder": 17,
+          "Adresse": "Prøvelunden 11, 0000 Sandnes",
+          "Trinn": "VG2",
+          "Linje": "Studiespesialisering",
+          "Klasse": "2SSØ",
+          "Mentor": "Magnus Demoseth",
+          "E-post": "ida.demostad@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Sosiologi 1",
+            "Engelsk 1",
+            "Matematikk S1"
+          ],
+          "Fiktiv": true
+        },
+        "Benjamin Eksemplås": {
+          "Fornavn": "Benjamin",
+          "Etternavn": "Eksemplås",
+          "Alder": 17,
+          "Adresse": "Testtunet 3, 0000 Sandnes",
+          "Trinn": "VG2",
+          "Linje": "Medier og kommunikasjon",
+          "Klasse": "2MEK",
+          "Mentor": "Karoline Prøvehei",
+          "E-post": "benjamin.eksemplås@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Filmproduksjon",
+            "Lyd"
+          ],
+          "Fiktiv": true
+        },
+        "Kaja Prøvedal": {
+          "Fornavn": "Kaja",
+          "Etternavn": "Prøvedal",
+          "Alder": 16,
+          "Adresse": "Demoveien 19, 0000 Sandnes",
+          "Trinn": "VG1",
+          "Linje": "Medier og kommunikasjon",
+          "Klasse": "1MEK",
+          "Mentor": "Karoline Prøvehei",
+          "E-post": "kaja.prøvedal@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Fotografi",
+            "Grafisk design"
+          ],
+          "Fiktiv": true
+        },
+        "Sondre Fiktivbø": {
+          "Fornavn": "Sondre",
+          "Etternavn": "Fiktivbø",
+          "Alder": 18,
+          "Adresse": "Skolebakken 8, 0000 Sandnes",
+          "Trinn": "VG3",
+          "Linje": "Påbygging til generell studiekompetanse",
+          "Klasse": "3PÅB",
+          "Mentor": "Per Eksempelli",
+          "E-post": "sondre.fiktivbø@elev.akademiet.example",
+          "Valgfag / programfag": [
+            "Norsk",
+            "Matematikk",
+            "Historie"
+          ],
+          "Fiktiv": true
+        }
+      }
+    }
+  }
+}
