@@ -1,5 +1,5 @@
-from flask import Flask, render_template
-from lib.json import getFileContent,getSchoolData
+from flask import Flask, render_template, abort
+from lib.json import getFileContent,lookup
 
 app = Flask(__name__)
 app.url_map.strict_slashes = False
@@ -23,25 +23,25 @@ def api_school_all():
     return getFileContent()["Skoler"]
 @app.route('/api/skole/<school>')
 def api_school(school):
-    return getSchoolData(school)
+    return lookup(school) or abort(404)
 
 # elever og ansatte
 
 @app.route('/api/skole/<school>/ansatte')
 def api_school_staff_all(school):
-    return getFileContent()["Skoler"][school]["Lærere"]
+    return lookup(school,'Lærere') or abort(404)
 
 @app.route('/api/skole/<school>/ansatte/<staff>')
 def api_school_staff(school,staff):
-    return getFileContent()["Skoler"][school]["Lærere"][staff]
+    return lookup(school,"Lærere",staff) or abort(404)
 
 @app.route('/api/skole/<school>/elever/')
 def api_school_students_all(school):
-    return getSchoolData(school).get('Elever', {})
+    return lookup(school,"Elever") or abort(404)
 
 @app.route('/api/skole/<school>/elever/<student>')
 def api_school_students(school,student):
-    return getFileContent()["Skoler"][school]["Elever"][student]
+    return lookup(school,"Elever",student) or abort(404)
 
 @app.errorhandler(404)
 def error(e):
