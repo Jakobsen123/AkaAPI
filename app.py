@@ -37,7 +37,7 @@ def api_school_staff(school,staff):
 
 @app.route('/api/skole/<school>/elever/')
 def api_school_students_all(school):
-    return getFileContent()["Skoler"][school]["Elever"]
+    return getSchoolData(school).get('Elever', {})
 
 @app.route('/api/skole/<school>/elever/<student>')
 def api_school_students(school,student):
