@@ -12,6 +12,10 @@ def index():
 def doc_page():
     return render_template('doc.html')
 
+@app.route('/visualisering')
+def visual_page():
+    return render_template('visualisering.html')
+
 @app.route('/api/')
 def api_root():
     return getFileContent()
