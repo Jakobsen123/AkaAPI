@@ -9,6 +9,11 @@
 
 * {
   text-decoration: none;
+  
+}
+
+ul {
+  list-style-type: none;
 }
 
 html,
@@ -51,8 +56,6 @@ html {
   z-index: 2;
 }
 
-
-
 .landing {
   display: flex;
   flex-direction: column;
@@ -87,13 +90,13 @@ h1 {
 }
 
 .nav_text_regular {
-    color: rgb(250, 232, 204);
-    font-weight: 400;
+  color: rgb(250, 232, 204);
+  font-weight: 400;
 }
 
 .nav_text_selected {
-    color: #ff8800;
-    font-weight: bold;
+  color: #ff8800;
+  font-weight: bold;
 }
 
 .orange_circle_gradient {
@@ -105,4 +108,24 @@ h1 {
   background-image: radial-gradient(#fe9e0316, transparent, transparent);
 
   z-index: 0;
+}
+
+.visual_main {
+  padding-top: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+
+  color: white;
+  min-height: 100vh;
+  font-family: "inter";
+}
+
+
+
+.visual_card {
+  width: 50vw;
+  color: white;
+  background-color: #321b04;
 }

@@ -14,7 +14,7 @@ def doc_page():
 
 @app.route('/visualisering')
 def visual_page():
-    return render_template('visualisering.html')
+    return render_template('visualisering.html',tree=getFileContent())
 
 @app.route('/api/')
 def api_root():
