@@ -26,12 +26,3 @@ def lookup(*keys):
         if node is None:
             return None
     return node
-
-
-
-def getSchoolData(school):
-    file = getFileContent()
-    for skole in file["Skoler"]:
-        if quote(school).lower() == quote(skole).lower():
-            return jsonify(file["Skoler"][skole])
-    return jsonify({"error": "Skolen finnes ikke i databasen."}), 40
