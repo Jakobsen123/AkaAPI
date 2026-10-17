@@ -30,4 +30,6 @@ I prosjektet brukte jeg KI verktøy på følgende måter:
 
 PROMPT: <br> <code>Generer en utfyllende versjon av denne json filen uten ekte informasjon og med felt for lærere, elever på hver skole, linja eleven går på og tilgjengelige linjer. også legg inn relevant nformasjon for hver skole. Dataen skal være for Akademiet VGS så inkluder relevant informasjon som ikke deler PII.</code></li>
 <li>Gi enkelte kommandoer i CSS som:<br><code>How to apply pseudo-element CSS</code></li>
+
+<li>Forklare hvordan man kan bruke recursion i jinja2<br><code>how can i make a loop to recursively look through all child nodes and check if any values contain a list to then loop over that?</code></li>
 </ol>
