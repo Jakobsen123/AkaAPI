@@ -12,22 +12,30 @@
       <a id="dokumentasjon" class="nav_text_regular" href="/dokumentasjon"
         >Dokumentasjon</a
       >
+      <a id="visualisering" class="nav_text_regular" href="/visualisering"
+        >Visualisering</a
+      >
     </nav>
     {%block content%} {%endblock%}
 
     <script defer>
       const home = document.getElementById("hjem");
       const doc = document.getElementById("dokumentasjon");
+      const visual = document.getElementById("visualisering");
 
       document.addEventListener("DOMContentLoaded", (e) => {
         if (window.location.href.endsWith("/dokumentasjon")) {
-          console.log("yeah");
           doc.className = "nav_text_selected";
           home.className = "nav_text_regular";
+          visual.className = "nav_text_regular";
+        } else if (window.location.href.endsWith("/visualisering")) {
+          visual.className = "nav_text_selected";
+          home.className = "nav_text_regular";
+          doc.className = "nav_text_regular";
         } else {
-          console.log("nah");
           doc.className = "nav_text_regular";
           home.className = "nav_text_selected";
+          visual.className = "nav_text_regular";
         }
       });
     </script>

@@ -9,11 +9,18 @@
 
 * {
   text-decoration: none;
+  box-sizing: border-box;
   
 }
 
 ul {
   list-style-type: none;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 html,
@@ -26,6 +33,7 @@ body {
   width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 html {
@@ -111,21 +119,47 @@ h1 {
 }
 
 .visual_main {
-  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  min-height: 100vh;      /* was height: 100vh */
+  padding: 10vh 0 4rem;   /* clears the navbar, leaves room at the bottom */
+}
+
+.main_content {
+  min-height: 60vh;
+  width: 50vw;
+  padding: 20px;
+
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
 
   color: white;
-  min-height: 100vh;
   font-family: "inter";
+
+  background-image: linear-gradient(to right, #ff88002d, #ff880008);
+  border-radius: 16px;
+  border: solid 1px #dc9e7288;
+  box-shadow: 0 0 0.5rem rgba(221, 140, 86, 0.254);
+
 }
 
 
 
 .visual_card {
-  width: 50vw;
+  width: 100%;
   color: white;
-  background-color: #321b04;
+  background-image: linear-gradient(to right, #ff88002d, #ff880008);
+  border-radius: 8px;
+  border: solid 1px #dc9e7288;
+  box-shadow: 0 0 0.5rem rgba(221, 140, 86, 0.254);
+  padding: 5px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
