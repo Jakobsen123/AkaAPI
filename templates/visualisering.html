@@ -1,7 +1,8 @@
 {% extends "base.html" %}{% block title %}Visualisering{% endblock %} {% block
 content %}
 <div class="visual_main">
-  {%macro render(node)%} {% if node is mapping%}
+  {%macro render(node)%} 
+  {% if node is mapping%}
   <ul>
     {%for key, value in node.items()%}
     <li class="visual_card">
@@ -20,10 +21,7 @@ content %}
     {%for item in node%}
     <li class="visual_card">
       {% if item is mapping or (item is iterable and item is not string) %}
-      <details>
-        <summary>Element {{ loop.index }}</summary>
-        {{ render(item) }}
-      </details>
+      <details>{{ render(item) }}</details>
       {% else %} {{ item }} {%endif%}
     </li>
     {%endfor%}
