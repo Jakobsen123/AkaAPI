@@ -189,6 +189,9 @@ h1 {
 
 .documentation_card {
   font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  
 
   background-image: linear-gradient(to right, #ff88002d, #ff880008);
   border-radius: 8px;
@@ -196,6 +199,7 @@ h1 {
   box-shadow: 0 0 0.5rem rgba(221, 140, 86, 0.254);
   padding: 15px;
   width: 100%;
+  gap: 5px;
 }
 
 .documentation_card div {
@@ -215,4 +219,9 @@ h1 {
 
 .documentation_card a {
   color: white;
+}
+
+.documentation_card p {
+  margin: 0;
+  font-size: 1rem;
 }

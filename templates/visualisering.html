@@ -1,8 +1,7 @@
 {% extends "base.html" %}{% block title %}Visualisering{% endblock %} {% block
 content %}
 <div class="visual_main">
-  {%macro render(node)%} 
-  {% if node is mapping%}
+  {%macro render(node)%} {% if node is mapping%}
   <ul>
     {%for key, value in node.items()%}
     <li class="visual_card">
@@ -21,12 +20,15 @@ content %}
     {%for item in node%}
     <li class="visual_card">
       {% if item is mapping or (item is iterable and item is not string) %}
-      <details>{{ render(item) }}</details>
+      <details>
+        <summary>{{item["Navn"]}}</summary>
+        {{ render(item) }}
+      </details>
       {% else %} {{ item }} {%endif%}
     </li>
     {%endfor%}
   </ol>
-  {%else%} {{node}} {%endif%} {%endmacro%}
+  {%endif%} {%endmacro%}
   <b>Bruk av AkaAPI</b>
   <div class="main_content">{{render(tree)}}</div>
 </div>

@@ -211,6 +211,21 @@
           ],
           "Fiktiv": true
         },
+        "Sindre Hopland": {
+          "Fornavn": "Sindre",
+          "Etternavn": "Hopland",
+          "Alder": 17,
+          "Adresse": "Sindre gaten 56 0000 Oslo",
+          "Trinn": "VG2",
+          "Linje": "Informasjonsteknologi",
+          "Klasse": "2IMA",
+          "Mentor": "Morten",
+          "E-post": "jegeherersindre@gmail.com",
+          "Valgfag / programfag": [
+            "Matematikk R1"
+          ],
+          "Fiktiv": false
+        },
         "Tobias Prøvedal": {
           "Fornavn": "Tobias",
           "Etternavn": "Prøvedal",
