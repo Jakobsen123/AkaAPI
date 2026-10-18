@@ -1,2 +1,33 @@
 {%extends "base.html"%}{%block title%}Dokumentasjon{%endblock%} {%block
-content%} {%endblock%}
+content%}
+<div class="documentation_main">
+  <h3>Bruk av AkaAPI</h3>
+  <div class="documentation_card_container">
+    <div class="documentation_card">
+        <strong>Hovedrute:</strong>
+        <div><a href="/api/">http://127.0.0.1:5000/api/</a></div>
+    </div>
+    <div class="documentation_card">
+        <strong>Skoler:</strong>
+        <div><a href="/api/skole/">http://127.0.0.1:5000/api/skole/</a></div>
+    </div>
+    <div class="documentation_card">
+        <strong>Ansatte:</strong>
+        <div><a href="/api/skole/">http://127.0.0.1:5000/api/skole/(skole)/ansatte/</a></div>
+    </div>
+    <div class="documentation_card">
+        <strong>Ansatt:</strong>
+        <div><a href="/api/skole/">http://127.0.0.1:5000/api/skole/(skole)/ansatte/(person)</a></div>
+    </div>
+    <div class="documentation_card">
+        <strong>Elever:</strong>
+        <div><a href="/api/skole/">http://127.0.0.1:5000/api/skole/(skole)/elever/</a></div>
+    </div>
+    <div class="documentation_card">
+        <strong>Elev:</strong>
+        <div><a href="/api/skole/">http://127.0.0.1:5000/api/skole/(skole)/elever/(person)</a></div>
+    </div>
+  </div>
+</div>
+
+{%endblock%}
