@@ -226,6 +226,36 @@
           ],
           "Fiktiv": false
         },
+        "Andreas Alstedt": {
+          "Fornavn": "Andreas",
+          "Etternavn": "Alstedt",
+          "Alder": 16,
+          "Adresse": "Promenaden 16B 0682 Oslo",
+          "Trinn": "VG2",
+          "Linje": "Informasjonsteknologi",
+          "Klasse": "2IMA",
+          "Mentor": "Morten",
+          "E-post": "andreas@dih.yakub",
+          "Valgfag / programfag": [
+            "Matematikk R1"
+          ],
+          "Fiktiv": false
+        },
+        "Eilert Sandvand": {
+          "Fornavn": "Eilert",
+          "Etternavn": "Sandvand",
+          "Alder": 16,
+          "Adresse": "Øvreveien 35 1450 Nesodden",
+          "Trinn": "VG2",
+          "Linje": "Medieproduksjon",
+          "Klasse": "2IMA",
+          "Mentor": "Ellen",
+          "E-post": "eilrt@dih.yakub",
+          "Valgfag / programfag": [
+            "Matematikk R1"
+          ],
+          "Fiktiv": false
+        },
         "Tobias Prøvedal": {
           "Fornavn": "Tobias",
           "Etternavn": "Prøvedal",
